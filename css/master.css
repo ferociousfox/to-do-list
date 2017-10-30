@@ -1,0 +1,12 @@
+
+.link{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.complete{
+  display: none;
+}

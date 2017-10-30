@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <meta charset="utf-8">
+    <title>To Do List</title>
+  </head>
+  <body>
+     <div class="container">
+       <h1>To do list</h1>
+       <div class="row">
+         <div class="col-md-6">
+           <h2>Add a Thing:</h2>
+           <form id="new-thing">
+             <div class="form-group">
+               <label for="new-thing">List item</label>
+               <input type="text" class="form-control" id="new-thing">
+             </div>
+             <div class="form-group">
+               <label for="new-date">Compete by date</label>
+               <input type="text" class="form-control" id="new-date">
+             </div>
+             <button type="submit" class="btn">Add</button>
+           </form>
+         </div>
+         <div class="col-md-6">
+           <div id="show-item">
+             <h2>Do This:</h2>
+             <ul id="to-do">
+
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </body>
+   </html>
